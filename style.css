@@ -18,8 +18,9 @@
 }
 
 body{
-    max-width: 1300px;
-    margin: 0 auto;
+    margin: 0;
+    padding-right: 80px;
+    padding-left: 80px;
 }
 
 a{
@@ -47,6 +48,10 @@ header{
     padding-right: 30px;
 }
 
+.top-img{
+    text-align: center;
+}
+
 .top{
     margin: auto;
     display: block;
@@ -68,6 +73,8 @@ h2{
 th{
     font-family: "jaro";
     font-size: 40px;
+    text-align: left;
+
 }
 
 p{
@@ -81,61 +88,27 @@ td{
     font-size: 30px;
 }
 
-.mission{
+.section_1,.section_2,.section_3{
     display: flex;
     margin-bottom: 40px;
+    gap: 24px;
 }
 
-.mission-img{
+.section1-img,.section2-img,.section3-img{
     max-width: 409px;
+    flex-shrink: 0;
 }
 
-.mission-text{
+.section1-text,.section2-text,.section3-text{
     background-color: #bfdded;
     padding: 16px 24px;
-}
-
-.vision{
-    display: flex;
-    height: auto;
-    margin-bottom: 40px;
-}
-
-.vision-img{
-    max-width: 409px;
-}
-
-.vision-text{
-    background-color: #bfdded;
-    padding: 16px 24px;
-}
-
-.value{
-    display: flex;
-    margin-bottom: 40px;
-}
-
-.value-img{
-    max-width: 409px;
-    height: auto;
-}
-
-.value-text{
-    background-color: #bfdded;
-    padding: 16px 24px;
-    max-width: 100%;
-}
-
-th{
-    padding: 10px 60px 10px 10px;
-}
-
-td{
-    padding: 10px;
+    flex-grow: 1;
+    box-sizing: border-box;
 }
 
 .footer-logo{
-    margin: 50px auto 30px;
+    margin: 80px auto 10px;
     max-width: 8%;
     display: block;
 }
+
