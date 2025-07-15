@@ -44,7 +44,7 @@ header{
     display: flex;
 }
 
-.list-01,.list-02,.list-03{
+.list-01,.list-02,.list-03,.list-04{
     padding-right: 30px;
 }
 
@@ -74,7 +74,6 @@ th{
     font-family: "jaro";
     font-size: 40px;
     text-align: left;
-
 }
 
 p{
@@ -101,9 +100,42 @@ td{
 
 .section1-text,.section2-text,.section3-text{
     background-color: #bfdded;
-    padding: 16px 24px;
+    padding: 24px 48px;
     flex-grow: 1;
     box-sizing: border-box;
+    justify-content: center;
+}
+
+.tc-box{
+    display: flex;
+    gap: 40px;
+    margin-top: 16px;
+}
+
+.box{
+    background-color: #4da1d5;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    box-shadow: 0 4px 0 #2b7aaa;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    min-width: 120px;
+    width: 100%;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 1900px) {
+    .box{
+        width: 500px;
+    }
+}
+
+.entry-button{
+    width: 21%;
+    margin: auto;
+    display: block;
 }
 
 .footer-logo{
