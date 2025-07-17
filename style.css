@@ -132,8 +132,18 @@ td{
     }
 }
 
+.entry{
+    text-align: center;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
 .entry-button{
-    width: 21%;
+    width: 30%;
+    height: auto;
     margin: auto;
     display: block;
 }
